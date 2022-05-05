@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Areas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href=".css/menu.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href=".css/responsive.css">
+    <script src="https://kit.fontawesome.com/545963e1f9.js" crossorigin="anonymous"></script>
+
+   
+
+    
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    <header class="encabezado">
+      <div class="social">
+          <ul>
+             <li><a style="text-decoration:none" href="#"	class="icon-facebook"></a></li>
+             <li><a style="text-decoration:none" href="#"	class="icon-twitter"></a></li>
+             <li><a style="text-decoration:none" href="#"	class="icon-instagram"></a></li>
+          </ul>
+      </div>
+      <div   class="logo__imagen">
+          <a href="index.html">
+            <img   src="./imagenes/logo/logourban.png" height="100%" width="40%" >
+         
+             </a> </div>
+  </header> 
+    <nav class="navbar navbar-expand-lg  navbar-dark sticky-top navbarEstilos">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+          <ul class="navbar-nav ">
+            <li class="nav-item espacio">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item  espacio">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item  espacio">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li class="nav-item  espacio">
+              <a class="nav-link" href="#">Tutoriales</a>
+            </li>
+            <li class="nav-item  espacio">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>    
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Conoce Nuestros Productos</h1>
+        <p class="lead text-muted">Tenemos algunos productos que podrian interesarte.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div data-aos="zoom-in-up" data-aos-delay="500" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/alforja.jpg" class="bd-placeholder-img card-img-top" width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Alforja</h5></img>
+
+            <div class="card-body">
+              <p class="card-text">Alforja para bicis mtb </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal1">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 1500</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-aos="zoom-in-down" data-aos-delay="600" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/portacelu.jpg"  class="bd-placeholder-img card-img-top " width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Porta Celu</h5></img>
+
+            <div class="card-body">
+              <p class="card-text">Porta Celu</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal2">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 2500</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-aos="zoom-in-up" data-aos-delay="500" class="card shadow-sm">
+            <img src="./imagenes/fotos/productos/cadenau.jpg" class="bd-placeholder-img card-img-top" width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Cadena Tipo U</h5></img></img>
+
+          <div class="card-body">
+            <p class="card-text">Candado U nivel de protección 9 </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal3">
+                  ver mas..
+                </button>
+              </div>
+              <small class="text-muted">$ 7000</small>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        
+
+        <div class="col">
+          <div data-aos="flip-left" data-aos-delay="700" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/casco.jpg" class="bd-placeholder-img card-img-top" width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Casco</h5></img></img>
+
+            <div class="card-body">
+              <p class="card-text">Casco de ruta , Shadow now</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal4">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 20.000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+               <div class="col">
+          <div data-aos="flip-up" data-aos-delay="700" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/inflador.jpg" class="bd-placeholder-img card-img-top" width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Casco</h5></img></img>
+
+            <div class="card-body">
+              <p class="card-text">Inflador de mano</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal5">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 5500</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div  data-aos="flip-left" data-aos-delay="700" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/kitbici.jpg" class="bd-placeholder-img card-img-top" width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Kit Bici</h5></img></img>
+
+            <div class="card-body">
+              <p class="card-text">Kit bici para tu bolso</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal6">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 1200</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div data-aos="flip-up" data-aos-delay="700" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/lentes.jpg" class="bd-placeholder-img card-img-top" width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Lentes</h5></img></img>
+
+            <div class="card-body">
+              <p class="card-text">Lentes Ciclismo</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal7">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 3200</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-aos="flip-up" data-aos-delay="800" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/luces1.jpg" cclass="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Porta Celu</h5></img></img>
+
+            <div class="card-body">
+              <p class="card-text">Luces kit</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal8">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 1450</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-aos="flip-up" data-aos-delay="900" class="card shadow-sm">
+              <img src="./imagenes/fotos/productos/parlante.jpg"  class="bd-placeholder-img card-img-top" width="100%" height="300"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect  width="100%" height="100%" fill="#55595c"/><h5 class="card-title centrar mt-3">Parlante Inalambrico</h5></img></img>
+
+            <div class="card-body">
+              <p class="card-text">Parlante Portatil</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#galley-modal9">
+                    ver mas..
+                  </button>
+                </div>
+                <small class="text-muted">$ 18000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="galley-modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="staticBackdropLabel">Alforja Canion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/alforja.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galley-modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Bolso Canion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/portacelu.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galley-modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Candado U</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/cadenau.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galley-modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Casco Cosovo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/casco.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galley-modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Inflador variant</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/inflador.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galley-modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Kit Bici</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/kitbici.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galley-modal7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Lentes sova</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/lentes.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galley-modal8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Luces Bikes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/luces1.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+
+
+</div>
+
+<div class="modal fade" id="galley-modal9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Luces Bikes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./imagenes/fotos/productos/parlante.jpg" class="modal-img" width="100%" height="" alt="">
+      </div>
+ 
+    </div>
+  </div>
+
+
+</div>
+
+
+
+ 
+     <div class="pie">
+      <p>Diseñado por <a href="index.html">RideBA - Urban ciclyng</a></p>
+  </div>
+   </div>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
