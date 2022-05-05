@@ -41,3 +41,15 @@ div .social {
 
 .navlink li a:hover {
   color: #44A9DB !important; }
+
+.navbarEstlos {
+  background: #296584; }
+
+.zoom:hover {
+  transform: scale(2);
+  position: absolute; }
+
+.card__index img {
+  width: 100%;
+  min-height: 600px;
+  max-height: 700px; }

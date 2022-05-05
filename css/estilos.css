@@ -1,7 +1,8 @@
-*{
-margin: 0px;
-padding: 0px;
-}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
 body{
     margin: 0px;
@@ -100,14 +101,6 @@ div .social {
     transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     position: absolute;
   }
-
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-
   
   .contenedor__articulos {
     width: 90%;
@@ -148,8 +141,8 @@ div .social {
 
   .card__index img {
       width: 100%; 
-      min-height: 700px;
-      max-height: 740px;
+      min-height: 600px;
+      max-height: 700px;
       
       
   }
