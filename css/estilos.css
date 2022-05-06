@@ -513,7 +513,7 @@ textarea:-ms-input-placeholder {
 
 .fondocontacto {
 
-    background-color:rgba(192,192,192,0.4)
+    background-color:rgba(192,192,192,0.4) !important;
    
 }
 
