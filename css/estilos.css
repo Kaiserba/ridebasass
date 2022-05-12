@@ -142,11 +142,9 @@ div .social {
   .card__index img {
       width: 100%; 
       min-height: 600px;
-      max-height: 700px;
-      
-      
+      max-height: 700px;    
   }
-  
+   
   .card-header__index {
     text-align: center;
     padding: 50px 10px;
@@ -173,7 +171,7 @@ div .social {
     background: linear-gradient(to right, #ff416c, #ff4b2b);
     margin-top: 30px;
     text-decoration: none;
-    padding: 10px 5px;
+    padding: 15px 5px;
   }
   
   .card__index:hover {
