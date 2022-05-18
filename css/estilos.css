@@ -618,7 +618,7 @@ iframe {
     align-items: center;
     padding: 15px;
 
-    background-image: url(../imagenes/fotos/edificio.JPG);
+    background-image: url(../imagenes/fotos/edificio.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
