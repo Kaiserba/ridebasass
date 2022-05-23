@@ -535,7 +535,7 @@ iframe {
     align-items: center;
     padding: 15px;
 
-    background-image: url(../imagenes/fotos/edificio.jpg);
+    background-image: url(../imagenes/fotos/edificio.JPG);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -719,7 +719,6 @@ textarea.input100 {
 }
 
 
-<<<<<<< HEAD
 @media (max-width: 1200px) {
     .contact100-pic {
         width: 33.5%;
@@ -829,5 +828,3 @@ textarea.input100 {
         opacity: 1;
     }
 }
-=======
->>>>>>> d84a708c38a0cf5ce29a222a488924674ece8330
