@@ -352,16 +352,17 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+/* gracas html */
 
+.margenesplus {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 
 
 /* estilos de form */
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 
 
 
@@ -745,6 +746,8 @@ textarea.input100 {
     }
 }
 
+
+
 @media (max-width: 768px) {
     .wrap-contact100 {
         padding: 110px 80px 157px 80px;
@@ -762,6 +765,10 @@ textarea.input100 {
 @media (max-width: 576px) {
     .wrap-contact100 {
         padding: 110px 15px 157px 15px;
+    }
+
+    footer {
+        display: none;
     }
 }
 
