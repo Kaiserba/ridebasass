@@ -9,6 +9,9 @@ body{
     padding: 0px; 
 }
 
+
+
+
 .row {
     --bs-gutter-x: 0rem !important;
 }
@@ -160,6 +163,7 @@ div .social {
   }
   
   .card__index:hover {
+      overflow: hidden !important;
     transform: scale(1.05) !important;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   }
@@ -264,7 +268,7 @@ div .social {
 .pie {
 	width: 100%;
 	height: 35px;
-	margin: auto;
+	margin: auto;;
     background-color:#296584;
     padding: 5px;
 	font-family: 'Roboto Slab', serif;
@@ -355,17 +359,24 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+/* gracas html */
 
+.margenesplus {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 
 
 /* estilos de form */
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
+/* card index */
+
+
+
+
+
+/* fincardindex */
 
 
 a {
@@ -727,6 +738,8 @@ textarea.input100 {
         width: 33.5%;
     }
 
+
+
     .contact100-form {
         width: 100%;
     }
@@ -751,6 +764,8 @@ textarea.input100 {
     }
 }
 
+
+
 @media (max-width: 768px) {
     .wrap-contact100 {
         padding: 110px 80px 157px 80px;
@@ -763,12 +778,69 @@ textarea.input100 {
     .contact100-form {
         width: 100%;
     }
+
+    ·index {
+        font-weight: 30px !important;
+    }
 }
 
 @media (max-width: 576px) {
     .wrap-contact100 {
         padding: 110px 15px 157px 15px;
     }
+
+<<<<<<< HEAD
+=======
+    footer {
+        display: none;
+    }
+
+    .card__index img {
+        width: 100%; 
+        min-height: 200px;
+        max-height: 250px;    
+    }
+
+    .card-header__index {
+        text-align: center;
+        padding: 25px 5px;
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+        color: #fff;
+      }
+      
+      .card-body__index {
+          
+        padding: 15px 10px;
+        text-align: center;
+        font-size: 18px;
+      }
+    
+      .card-header__index h1{
+          font-size: 16px;
+    
+      }
+
+      .foto__parrafo{
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        color: #ffffff; 
+        font-size: 10px; 
+    
+        text-align: center; 
+        background:rgba(94, 93, 79, 0.8) ;
+    
+        overflow: hidden; 
+        padding: 5px; 
+        border-radius: 15px 0px 15px 0px; 
+        border: 2px solid #cecdca;
+        margin-left: 10px;
+    
+
+}
+>>>>>>> f6a8d6868e5403630c6a65e3e455611aa7d15d69
+
+}
+
+
 
 
 
