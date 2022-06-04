@@ -110,6 +110,7 @@ div .social {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    padding: 170px;
 
   }
   
@@ -125,8 +126,8 @@ div .social {
 
   .card__index img {
       width: 100%; 
-      min-height: 600px;
-      max-height: 700px;    
+      min-height: 650px;
+      
   }
    
   .card-header__index {
