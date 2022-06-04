@@ -11,8 +11,24 @@
 
 @media screen and (max-width: 1000px) {
     .card__index {
-      width: 70%;
+      width: 60%;
     }
+
+     /* ecala */
+
+  .scaled {
+    transform: scale(0.5);
+  }
+
+ 
+
+  .card__index img {
+    width: 50%;
+    min-height: 200px;
+    max-height: 350px;
+
+  }
+    
  
     .titulo__articulos h1{
 
@@ -21,7 +37,7 @@
     }
 
     .contenedor__articulos__index {
-        width: 100%;
+        width: 50%;
         
       }
 
@@ -64,24 +80,17 @@
  
 
 @media screen and (max-width: 620px) {
-    .container__index {
-      width: 100%;
+    .card__index {
+        width: 100%;
     }
   
     .heading {
       padding: 20px;
       font-size: 20px;
     }
-  
-    .card__index {
-      width: 70%;
-    }
- 
-
-
 
     
-   
+
 
     p.presentacion__parrafo {
         text-align: center;
