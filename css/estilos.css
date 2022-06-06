@@ -73,6 +73,7 @@ div .social {
 
 .nav-link {
     text-align: center;
+    font-size: 14px;
    
 }
 
@@ -113,7 +114,7 @@ div .social {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    padding: 170px;
+    padding: 0px;
 
   }
   
@@ -129,7 +130,8 @@ div .social {
 
   .card__index img {
       width: 100%; 
-      min-height: 650px;
+      max-height: 600px;
+      min-height: 600px;
       
   }
    
@@ -167,10 +169,35 @@ div .social {
     transform: scale(1.05) !important;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   }
+
+  .cardsindex {
+      margin:0px 0px 0px 0px;
+      padding: 100px;
+
+  }
   
 /* fin Cards index */
 
-
+.container {  
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .button-container {
+      display: flex;
+  
+      margin: 60px auto;
+  
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  
+  
+  
 
 /* articulo */
 
@@ -737,13 +764,15 @@ textarea.input100 {
     .contact100-pic {
         width: 33.5%;
     }
-
+ 
 
 
     .contact100-form {
         width: 100%;
     }
 }
+
+
 
 @media (max-width: 992px) {
     .wrap-contact100 {
@@ -782,6 +811,8 @@ textarea.input100 {
     ·index {
         font-weight: 30px !important;
     }
+
+    
 }
 
 @media (max-width: 576px) {
@@ -789,16 +820,41 @@ textarea.input100 {
         padding: 110px 15px 157px 15px;
     }
 
-<<<<<<< HEAD
-=======
+
+    .tituloindex {
+        font-size: 12px ;
+    }
+
+    .imagenmapaescala img {
+        scale: 0.3;
+    }
+
+    .logo__imagen{
+        
+            width: 100%;
+            text-align: center !important;
+            height: 150px;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            background-image: url(../imagenes/fotos/_DSC0235.jpg); 
+    }
+
+    .tz-gallery img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    
+    }
+
+
     footer {
         display: none;
     }
 
     .card__index img {
-        width: 100%; 
-        min-height: 200px;
-        max-height: 250px;    
+        width: 100% !important; 
+        min-height: 200px !important;
+       
     }
 
     .card-header__index {
@@ -812,18 +868,18 @@ textarea.input100 {
           
         padding: 15px 10px;
         text-align: center;
-        font-size: 18px;
+        font-size: 10px;
       }
     
       .card-header__index h1{
-          font-size: 16px;
+          font-size: 12px;
     
       }
 
       .foto__parrafo{
         font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
         color: #ffffff; 
-        font-size: 10px; 
+        font-size: 20px; 
     
         text-align: center; 
         background:rgba(94, 93, 79, 0.8) ;
@@ -836,7 +892,12 @@ textarea.input100 {
     
 
 }
->>>>>>> f6a8d6868e5403630c6a65e3e455611aa7d15d69
+
+.cardsindex {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+
+}
 
 }
 
@@ -902,4 +963,3 @@ textarea.input100 {
     opacity: 1;
 }
 
-}
