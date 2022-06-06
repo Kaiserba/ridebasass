@@ -73,6 +73,7 @@ div .social {
 
 .nav-link {
     text-align: center;
+    font-size: 18px;
    
 }
 
@@ -164,10 +165,35 @@ div .social {
     transform: scale(1.05) !important;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   }
+
+  .cardsindex {
+      margin:0px 0px 0px 0px;
+      padding: 100px;
+
+  }
   
 /* fin Cards index */
 
-
+.container {  
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .button-container {
+      display: flex;
+  
+      margin: 60px auto;
+  
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  
+  
+  
 
 /* articulo */
 
@@ -779,6 +805,14 @@ textarea.input100 {
 @media (max-width: 576px) {
     .wrap-contact100 {
         padding: 110px 15px 157px 15px;
+    }
+
+    .tituloindex {
+        font-size: 12px ;
+    }
+
+    .imagenmapaescala img {
+        scale: 0.3;
     }
 
     footer {
